@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=520,user-scalable=no" />
+		<audio src="img/陈一发儿 - 童话镇.mp3" autoplay="autoplay"></audio>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			
+			html,
+			body {
+				height: 100%;
+			}
+			
+			.swiper-container {
+				height: 100%;
+				width: 100%;
+				position: relative;
+				/*background-repeat: no-repeat;*/
+				background: url(../../JQuery/js/3.png);
+				background-size: 100% 100%;
+			}
+			
+			/*.swiper-wrapper {
+				display: block;
+			}*/
+			
+			.swiper-container .swiper-wrapper .swiper-slide {
+				/*width: 200px!important;*/
+				height: 400px!important;
+				background-color: greenyellow;
+				/*opacity: 0.78;*/
+				margin: 0 auto;
+				top: 30%;
+				font-family: 华文行楷;
+				font-size: 30px;
+				/*color: white;*/
+				text-align: center;
+				/*line-height: 60px;*/
+				
+				/*margin: 120px;*/
+			}
+			
+			.swiper-container .swiper-wrapper .swiper-slide:nth-child(1) {
+				background-color: red !important;
+				color: royalblue !important;
+			}
+			
+			.swiper-containe .swiper-wrapperr .swiper-slide:nth-child(2) {
+				background-color: lavender !important;
+				color: red !important;
+			}
+			
+			.swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+				background-color: violet !important;
+				color: navajowhite !important;
+			}
+			
+			.swiper-container .swiper-wrapper .swiper-slide:nth-child(4) {
+				background-color: royalblue !important;
+				color: mediumvioletred !important;
+			}
+			
+			.swiper-container .swiper-wrapper .swiper-slide:nth-child(5) {
+				background-color: gold !important;
+				color:green !important;
+			}
+			
+			.swiper-container .swiper-wrapper .swiper-slide:nth-child(6) {
+				background-color: fuchsia !important;
+				color:#7FFF00 !important ;
+			}
+			
+			.swiper-container .swiper-wrapper .swiper-slide:nth-child(7) {
+				background-color: navajowhite !important;
+				color: aquamarine !important;
+			}
+			
+			.swiper-container .swiper-wrapper .swiper-slide:nth-child(8) {
+				background-color: salmon !important;
+				color: slateblue !important;
+			}
+			
+			.swiper-container .swiper-wrapper .swiper-slide:nth-child(9) {
+				background-color: aquamarine !important;
+				color: darkred !important;
+			}
+			
+			.gaobie {
+				height: 100%;
+				width: 100%;
+				background-color: #ADFF2F;
+			}
+			
+			.gaobie button {
+				width: 80%;
+				height: 520px;
+				font-family: 华文行楷;
+				font-size: 52px;
+				color: red;
+				border: none;
+				background-color: cyan;
+				margin: 40% 10%;
+			}
+			
+			.jiaoqing {
+				height: 100%;
+				width: 100%;
+				background-color: bisque;
+				position: absolute;
+				top: 0;
+				/*float: top;*/
+				display: none;
+			}
+			
+			.jiaoqing button {
+				width: 80%;
+				height: 520px;
+				font-family: 华文行楷;
+				font-size: 52px;
+				color: red;
+				border: none;
+				background-color: skyblue;
+				/*position: absolute;
+				top: 40%;*/
+				margin: 40% 10%;
+			}
+			
+			.liu {
+				display: block;
+				/*z-index: 1000;*/
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<div class="gaobie">
+			<button onclick="click_fn()" class="btn1">告别</button>
+			</div>
+			<div class="jiaoqing">
+				<button onclick="click_fn1()" class="btn2">矫情</button>
+			</div>
+		</div>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide wow bounceIn rollIn " data-wow-offset="10">1
+					坚持阅读，使内心世界变得清凉，不再焦躁。
+				</div>
+				<div class="swiper-slide wow bounceIn bounceInRight " data-wow-offset="10">2
+					坚持认真，把一件事坚持21天
+				</div>
+				<div class="swiper-slide wow bounceIn bounceInUp " data-wow-offset="10">3
+				如果发现一个人，一个地方，一件事，一本书，可以改变你的命运。一定要想办法跟他发生关系，否则，他就跟你没关系。。
+				</div>
+				<div class="swiper-slide wow bounceIn bounceInLeft" data-wow-offset="10">4
+				世界上，成功的有两种人，一种人是傻子，一种人是疯子。傻子是会吃亏的人，疯子是会行动的人。
+				</div>
+				<div class="swiper-slide wow bounceIn bounceOutRight " data-wow-offset="10">5
+					当你的能力不足以撑起你的野心时，你应该学会奔跑
+				</div>
+				<div class="swiper-slide wow bounceIn fadeInDownBig" data-wow-offset="10">6
+					想有个简单的地方，可以容纳我的心情。
+					关于明天的事，我们后天就知道了。
+				</div>
+				<div class="swiper-slide wow bounceIn bounceOut " data-wow-offset="10">7
+				有些事情总得要放弃，只是早晚罢了。
+				你的内心不浪漫，所以你看什么都矫情。
+				</div>
+				<div class="swiper-slide wow bounceIn bounceOutRight " data-wow-offset="10">8
+				理想和现实总是有差距的，幸好还有差距，不然，谁还稀罕理想？
+				
+				</div>
+				<div class="swiper-slide wow bounceIn  hinge" data-wow-offset="10">9
+				是不是你一直在等我说出口的一天,你好华丽的转身离开,嘲笑背后的我,多么的好玩!
+				</div>
+			</div>
+		</div>
+		
+		
+
+		
+		<script type="text/javascript">
+			var fn = function() {
+				var mySwiper = new Swiper('.swiper-container', {
+					//			    direction: 'vertical',
+					loop: true,
+
+					effect: 'coverflow',
+					slidesPerView: 3,
+					centeredSlides: true,
+					coverflowEffect: {
+						rotate: 30,
+						stretch: 10,
+						depth: 60,
+						modifier: 2,
+						slideShadows: true
+					},
+					// 如果需要分页器
+					pagination: {
+						el: '.swiper-pagination',
+					},
+
+					autoplay: {
+						delay: 3000, //1秒切换一次
+					},
+
+				})
+			}
+
+//			var gaobiediv = document.querySelector('.gaobie')
+			var gaobiediv = $(".gaobie")[0]
+			var gaobie = document.querySelector('.button1')
+//			var jiaoqingdiv = document.querySelector('.jiaoqing')
+			var jiaoqingdiv = $(".jiaoqing")[0]
+			var jiaoqing = document.querySelector('.button2')
+
+			var mainimg = document.querySelector('.swiper-wrapper')
+//			var main = document.querySelector('.swiper-container')
+			var main = $(".swiper-container")[0]
+
+			function click_fn() {
+				jiaoqingdiv.className = 'jiaoqing liu'
+
+			}
+
+			function click_fn1() {
+				jiaoqingdiv.className = 'jiaoqing'
+				gaobiediv.style.display = 'none'
+				jiaoqingdiv.style.display = 'none'
+
+			
+				fn()
+
+			}
+		</script>
+	</body>
+
+</html>
